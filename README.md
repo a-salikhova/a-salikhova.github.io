@@ -1,4 +1,4 @@
 # a-salikhova.github.io
-[Copenhagen](../copenhagen/)
-[Portrets](../portrets/)
-[Painting](../portrets/)
+* [Copenhagen](../copenhagen/)
+* [Portrets](../portrets/)
+* [Painting](../portrets/)
