@@ -26,8 +26,9 @@
 |-|JavaScript|-|JavaScript|
 |-|animate|-|-|
 |@media|@media|@media|@media|
-| <img src="./images/copenhagen.png" alt="copenhagen" width="200px"> |<img src="./images/portrets1.png" alt="portrets" width="200px">  |<img src="./images/painting.png" alt="painting" width="200px">  |  <img src="./images/tesla.png" alt="tesla" width="200px">|
+|![Copenhagen](./images/copenhagen_min.png "Copenhagen") |![Portrets](./images/portrets_min.png "Portrets")  |![Painting](./images/painting_min.png "Painting")  | ![Tesla](./images/tesla_min.png "Tesla")|
 ***
+
 |5          | 6        |  7        | 8         |
 |:--------- |:---------|:----------|:----------|
 | [Gazelkin](../gazelkin/)| [EWA](../EWA/)| -| -|
@@ -40,5 +41,4 @@
 |from figma|-|-|-|
 |@media|@media|-|-|
 |-|gulp|-|-|
-| <img src="./images/gazelkin.png" alt="gazelkin" width="200px"> |<img src="./images/EWA2.png" alt="EWA" width="200px">  |
-
+|![Gazelkin](./images/gazelkin_min.png "Gazelkin")|![EWA](./images/EWA2_min.png "EWA") |-|-|
