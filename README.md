@@ -2,21 +2,14 @@
 
 * [Copenhagen](../copenhagen/)
   * 3 pages, flex, grid, slick-slider, fancybox, @media
-
-
 * [Portrets](../portrets/)
   * landing page, flex, grid, magnific-popup, fancybox.css, JavaScript, @media
-
 * [Painting](../painting/)
   * landing page, flex, slick-slider, @media
-
 * [Tesla](../tesla/)
   * landing page, flex, slick-slider,  JavaScript, @media
-
 * [Gazelkin](../gazelkin/)
-  * landing page, flex,  magnific-popup, JavaScript, @keyframes, @media, from figma
- 
- 
+  * landing page, flex, slick-slider,  magnific-popup, JavaScript, @keyframes, @media, from figma
 * [EWA](../EWA/)
   * landing page, gulp, flex, slick-slider, @media
   ***
@@ -40,7 +33,8 @@
 | [Gazelkin](../gazelkin/)| [EWA](../EWA/)| -| -|
 | landing page|landing page|-|-| 
 |flex|flex|-|-|
-|-|slick-slider|-|-|
+|slick-slider|slick-slider|-|-|
+|magnific-popup|-|-|-|
 |JavaScript|-|-|-|
 |@keyframes|-|-|-|
 |from figma|-|-|-|
