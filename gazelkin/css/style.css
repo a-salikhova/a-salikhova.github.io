@@ -1264,13 +1264,14 @@ label:hover p {
 }
 
 @media(max-width:990px) {
-    .menu-max {
+    .menu.menu-max {
         display: none;
     }
 
     .menu.menu-min {
         display: flex;
         justify-content: center;
+
     }
 
     .money-block {
@@ -1338,13 +1339,8 @@ label:hover p {
 
     .menu.menu-gamburg {
         display: none;
-
     }
 
-    .menu {
-        flex-direction: column;
-        /* max-width: 100px; */
-    }
 
     .c-gamburg {
         display: block;
@@ -1354,7 +1350,6 @@ label:hover p {
     .is-active {
         left: 46px;
     }
-
 
     .menu.menu--active {
         display: block;
@@ -1703,508 +1698,509 @@ label:hover p {
         left: 28px;
     }
 
+}
 
-    @media(max-width:555px) {
-        body {
-            font-size: 14px;
-            line-height: 18px;
-        }
+@media(max-width:555px) {
+    body {
+        font-size: 14px;
+        line-height: 18px;
+    }
 
-        .calculate {
-            height: 550px;
-        }
-
-
-        .money-block {
-            display: none;
-        }
-
-        .driver-btn {
-            position: absolute;
-            bottom: -65px;
-        }
+    .calculate {
+        height: 550px;
+    }
 
 
-        .review-item {
-            background-color: #fff;
-            max-width: 380px;
-            padding: 20px 30px;
-        }
+    .money-block {
+        display: none;
+    }
 
-        .hostel-items {
-            grid-template-columns: 1fr;
-        }
-
-        .hostel-photo {
-            max-width: 241px;
-        }
+    .driver-btn {
+        position: absolute;
+        bottom: -65px;
+    }
 
 
-        .el3 {
+    .review-item {
+        background-color: #fff;
+        max-width: 380px;
+        padding: 20px 30px;
+    }
 
-            bottom: 32px;
-        }
+    .hostel-items {
+        grid-template-columns: 1fr;
+    }
 
-        .line3 {
-            width: 41%;
-            height: 31%;
-            right: 27%;
-        }
-
-        .line3__one {
-            height: 28%;
-        }
-
-        .line3__two {
-            height: 14%;
-            width: 26%;
-            top: 6px;
-            left: -56px;
-        }
-
-        .line3__three {
-            height: 18%;
-        }
-
-        .line3__four {
-            height: 24%;
-            bottom: 8px;
-            right: -41px;
-        }
-
-        .team-info {
-            max-width: 250px;
-        }
-
-        .teamTitle {
-
-            padding-top: 50px;
-            margin-bottom: 20px;
-
-        }
+    .hostel-photo {
+        max-width: 241px;
+    }
 
 
-        .team-btn {
-            margin-top: 80px;
-        }
+    .el3 {
+
+        bottom: 32px;
+    }
+
+    .line3 {
+        width: 41%;
+        height: 31%;
+        right: 27%;
+    }
+
+    .line3__one {
+        height: 28%;
+    }
+
+    .line3__two {
+        height: 14%;
+        width: 26%;
+        top: 6px;
+        left: -56px;
+    }
+
+    .line3__three {
+        height: 18%;
+    }
+
+    .line3__four {
+        height: 24%;
+        bottom: 8px;
+        right: -41px;
+    }
+
+    .team-info {
+        max-width: 250px;
+    }
+
+    .teamTitle {
+
+        padding-top: 50px;
+        margin-bottom: 20px;
 
     }
 
-    @media(max-width:500px) {
-        /* .menu-min {
+
+    .team-btn {
+        margin-top: 80px;
+    }
+
+}
+
+@media(max-width:500px) {
+    /* .menu-min {
         display: flex;
         flex-direction: column;
         transform: translateY(-250px);
         margin-bottom: 0px;
     } */
 
-        .menu.menu-min {
-            display: none;
-        }
-
-        .title1 {
-            font-size: 32px;
-            line-height: 34px;
-        }
-
-        .work-inform p {
-            max-width: 240px;
-            font-size: 14px;
-            line-height: 16px;
-        }
-
-        .work-inform span {
-            display: none;
-
-        }
-
-        .button-fillform {
-            padding: 10px 15px;
-            width: 164px;
-
-        }
-
-        .button-fillform a {
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 14px;
-        }
-
-        .work__btn {
-            margin-top: 150px;
-            margin-bottom: 125px;
-        }
-
-        .work-image {
-            width: 500px;
-            height: 500px;
-            top: 180px;
-        }
-
-        .img-pers2 {
-            top: 16px;
-            right: 16px;
-        }
-
-        .line1 {
-            position: absolute;
-            width: 65%;
-            height: 65%;
-            right: 0;
-            top: 50px;
-        }
-
-        .line1__one {
-            position: absolute;
-            height: 12%;
-            top: -4px;
-            left: 51px;
-        }
-
-        .line1__two {
-            height: 12%;
-            position: absolute;
-            top: 20px;
-            left: -3px;
-        }
-
-        .line1__three {
-            height: 12%;
-            position: absolute;
-            bottom: 75px;
-            right: -2px;
-        }
-
-        .line1__four {
-            height: 12%;
-            position: absolute;
-            bottom: 54px;
-            right: 37px;
-        }
-
-        .bigText {
-            font-size: 24px;
-            line-height: 26px;
-        }
-
-        .delivery-table {
-            margin-top: 60px;
-            flex-direction: column;
-        }
-
-        .delivery-table__item {
-            margin-bottom: 15px;
-        }
-
-        .delivery-text {
-            padding-top: 40px;
-            max-width: 420px;
-
-        }
-
-        .img-hand2 {
-            position: absolute;
-            bottom: 12px;
-            left: 12px;
-        }
-
-        .guarantee-image {
-            width: 278px;
-            height: 278px;
-            position: absolute;
-            bottom: -130px;
-            left: 10px;
-        }
-
-        .line2 {
-            width: 180px;
-            height: 150px;
-            left: 0;
-            top: 64px;
-
-        }
-
-        .line2__one,
-        .line2__three {
-            height: 25%;
-            width: 25%;
-        }
-
-        .line2__two,
-        .line2__four {
-            width: 25%;
-        }
-
-        .line2__one {
-            top: 4px;
-        }
-
-        .line2__two {
-            top: 33px;
-            left: 23px;
-        }
-
-        .line2__three {
-            bottom: 68px;
-        }
-
-        .line2__four {
-            bottom: 44px;
-        }
-
-        .whiteTitle {
-            font-size: 20px;
-            line-height: 22px;
-            padding-top: 25px;
-        }
-
-        .driver-right {
-            max-width: 340px;
-            padding-left: 10px;
-        }
-
-        .review-title {
-            font-size: 24px;
-            line-height: 26px;
-            padding-top: 65px;
-            margin-bottom: 45px;
-        }
-
-        .review-item {
-
-            max-width: 310px;
-            padding: 20px 20px;
-        }
-
-
-        .review-text {
-
-            font-size: 14px;
-            line-height: 18px;
-        }
-
-        .hostel {
-            padding-top: 60px;
-            height: auto;
-        }
-
-        .hostel-title {
-            font-size: 24px;
-            line-height: 26px;
-
-        }
-
-        .line3 {
-            width: 41%;
-            height: 31%;
-            right: 27%;
-        }
-
-        .line3__one {
-            top: -26px;
-        }
-
-        .line3__two {
-            height: 12%;
-            width: 32%;
-            top: 27px;
-
-        }
+    .menu.menu-min {
+        display: none;
     }
 
-    @media(max-width:440px) {
-        .line3 {
-            width: 40%;
-            height: 25%;
-            right: 27%;
-        }
+    .title1 {
+        font-size: 32px;
+        line-height: 34px;
+    }
 
-        .line3__two {
-            top: 8px;
-        }
+    .work-inform p {
+        max-width: 240px;
+        font-size: 14px;
+        line-height: 16px;
+    }
 
-        .line3__four {
-            bottom: 19px;
-        }
+    .work-inform span {
+        display: none;
 
-        .footer-up {
-            flex-direction: column;
+    }
 
-        }
+    .button-fillform {
+        padding: 10px 15px;
+        width: 164px;
 
-        .logo-block {
-            margin-top: -30px;
-        }
+    }
 
-        .phone-block {
-            margin-top: 20px;
-        }
+    .button-fillform a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+    }
 
-        .contact p {
-            text-align: center;
-            margin-bottom: 50px;
-        }
+    .work__btn {
+        margin-top: 150px;
+        margin-bottom: 125px;
+    }
 
-        .footer-menu {
-            order: 2;
+    .work-image {
+        width: 500px;
+        height: 500px;
+        top: 180px;
+    }
 
-        }
+    .img-pers2 {
+        top: 16px;
+        right: 16px;
+    }
 
-        .c-gamburg {
-            top: -45px;
-            left: -20px;
-        }
+    .line1 {
+        position: absolute;
+        width: 65%;
+        height: 65%;
+        right: 0;
+        top: 50px;
+    }
 
-        .footer-copy {
-            flex-direction: column;
-            text-align: center;
-        }
+    .line1__one {
+        position: absolute;
+        height: 12%;
+        top: -4px;
+        left: 51px;
+    }
 
-        .is-active {
-            left: 28px;
-        }
+    .line1__two {
+        height: 12%;
+        position: absolute;
+        top: 20px;
+        left: -3px;
+    }
+
+    .line1__three {
+        height: 12%;
+        position: absolute;
+        bottom: 75px;
+        right: -2px;
+    }
+
+    .line1__four {
+        height: 12%;
+        position: absolute;
+        bottom: 54px;
+        right: 37px;
+    }
+
+    .bigText {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .delivery-table {
+        margin-top: 60px;
+        flex-direction: column;
+    }
+
+    .delivery-table__item {
+        margin-bottom: 15px;
+    }
+
+    .delivery-text {
+        padding-top: 40px;
+        max-width: 420px;
+
+    }
+
+    .img-hand2 {
+        position: absolute;
+        bottom: 12px;
+        left: 12px;
+    }
+
+    .guarantee-image {
+        width: 278px;
+        height: 278px;
+        position: absolute;
+        bottom: -130px;
+        left: 10px;
+    }
+
+    .line2 {
+        width: 180px;
+        height: 150px;
+        left: 0;
+        top: 64px;
+
+    }
+
+    .line2__one,
+    .line2__three {
+        height: 25%;
+        width: 25%;
+    }
+
+    .line2__two,
+    .line2__four {
+        width: 25%;
+    }
+
+    .line2__one {
+        top: 4px;
+    }
+
+    .line2__two {
+        top: 33px;
+        left: 23px;
+    }
+
+    .line2__three {
+        bottom: 68px;
+    }
+
+    .line2__four {
+        bottom: 44px;
+    }
+
+    .whiteTitle {
+        font-size: 20px;
+        line-height: 22px;
+        padding-top: 25px;
+    }
+
+    .driver-right {
+        max-width: 340px;
+        padding-left: 10px;
+    }
+
+    .review-title {
+        font-size: 24px;
+        line-height: 26px;
+        padding-top: 65px;
+        margin-bottom: 45px;
+    }
+
+    .review-item {
+
+        max-width: 310px;
+        padding: 20px 20px;
     }
 
 
-    @media(max-width:380px) {
-        .logo img {
-            width: 90%;
-        }
+    .review-text {
 
-        .title1 {
-            font-size: 24px;
-            line-height: 26px;
-        }
+        font-size: 14px;
+        line-height: 18px;
+    }
 
-        .work-inform p {
-            max-width: 250px;
-            font-size: 12px;
-            line-height: 14px;
-        }
+    .hostel {
+        padding-top: 60px;
+        height: auto;
+    }
 
-
-        .point {
-            margin-top: 30px;
-            margin-bottom: 20px;
-        }
-
-        .point p {
-            font-size: 12px;
-            line-height: 14px;
-        }
-
-        .work__btn {
-            margin-top: 160px;
-            margin-bottom: 125px;
-        }
-
-        .work-image {
-            width: 400px;
-            height: 400px;
-            top: 149px;
-        }
-
-        .delivery-inner {
-
-            padding-top: 80px;
-        }
-
-        .delivery-num {
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 20px;
-        }
-
-        .guarantee-image {
-            width: 247px;
-            height: 247px;
-            position: absolute;
-            bottom: -101px;
-            left: 20px;
-        }
-
-        .line2 {
-            width: 145px;
-            height: 145px;
-            left: 0;
-            top: 64px;
-        }
-
-        .whiteTitle {
-            padding-top: 5px;
-        }
-
-        .calculater {
-            margin-top: 40px;
-        }
-
-        .driver-right {
-            max-width: 310px;
-            padding-left: 5px;
-        }
-
-        .review-item {
-            max-width: 300px;
-            height: 360px;
-            padding-left: 5px;
-
-        }
-
-        .review-text {
-            max-width: 260px;
-            margin-left: 5px;
-
-        }
-
-        .review-name {
-            margin-left: 10px;
-
-        }
-
-        .fio {
-
-            font-size: 14px;
-            line-height: 19px;
-        }
-
-        .team::before {
-
-            background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 5%, rgba(0, 0, 0, 0.1) 50%);
-        }
-
-        .teamTitle {
-            padding-top: 50px;
-        }
-
-        .line3 {
-            width: 50%;
-            height: 31%;
-            right: 23%;
-            bottom: 134px;
-        }
-
-
-        .el4 {
-            display: none;
-        }
-
-        .el5 {
-            display: block;
-            max-width: 380px;
-            width: 100%;
-        }
-
-        .el2 {
-            bottom: 84px;
-            width: 90%;
-            right: 5%;
-        }
-
-        .el3 {
-            bottom: 100px;
-            width: 80%;
-            right: 10%;
-
-        }
+    .hostel-title {
+        font-size: 24px;
+        line-height: 26px;
 
     }
+
+    .line3 {
+        width: 41%;
+        height: 31%;
+        right: 27%;
+    }
+
+    .line3__one {
+        top: -26px;
+    }
+
+    .line3__two {
+        height: 12%;
+        width: 32%;
+        top: 27px;
+
+    }
+}
+
+@media(max-width:440px) {
+    .line3 {
+        width: 40%;
+        height: 25%;
+        right: 27%;
+    }
+
+    .line3__two {
+        top: 8px;
+    }
+
+    .line3__four {
+        bottom: 19px;
+    }
+
+    .footer-up {
+        flex-direction: column;
+
+    }
+
+    .logo-block {
+        margin-top: -30px;
+    }
+
+    .phone-block {
+        margin-top: 20px;
+    }
+
+    .contact p {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .footer-menu {
+        order: 2;
+
+    }
+
+    .c-gamburg {
+        top: -45px;
+        left: -20px;
+    }
+
+    .footer-copy {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .is-active {
+        left: 28px;
+    }
+}
+
+
+@media(max-width:380px) {
+    .logo img {
+        width: 90%;
+    }
+
+    .title1 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .work-inform p {
+        max-width: 250px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+
+    .point {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .point p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .work__btn {
+        margin-top: 160px;
+        margin-bottom: 125px;
+    }
+
+    .work-image {
+        width: 400px;
+        height: 400px;
+        top: 149px;
+    }
+
+    .delivery-inner {
+
+        padding-top: 80px;
+    }
+
+    .delivery-num {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .guarantee-image {
+        width: 247px;
+        height: 247px;
+        position: absolute;
+        bottom: -101px;
+        left: 20px;
+    }
+
+    .line2 {
+        width: 145px;
+        height: 145px;
+        left: 0;
+        top: 64px;
+    }
+
+    .whiteTitle {
+        padding-top: 5px;
+    }
+
+    .calculater {
+        margin-top: 40px;
+    }
+
+    .driver-right {
+        max-width: 310px;
+        padding-left: 5px;
+    }
+
+    .review-item {
+        max-width: 300px;
+        height: 360px;
+        padding-left: 5px;
+
+    }
+
+    .review-text {
+        max-width: 260px;
+        margin-left: 5px;
+
+    }
+
+    .review-name {
+        margin-left: 10px;
+
+    }
+
+    .fio {
+
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .team::before {
+
+        background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 5%, rgba(0, 0, 0, 0.1) 50%);
+    }
+
+    .teamTitle {
+        padding-top: 50px;
+    }
+
+    .line3 {
+        width: 50%;
+        height: 31%;
+        right: 23%;
+        bottom: 134px;
+    }
+
+
+    .el4 {
+        display: none;
+    }
+
+    .el5 {
+        display: block;
+        max-width: 380px;
+        width: 100%;
+    }
+
+    .el2 {
+        bottom: 84px;
+        width: 90%;
+        right: 5%;
+    }
+
+    .el3 {
+        bottom: 100px;
+        width: 80%;
+        right: 10%;
+
+    }
+
+}
